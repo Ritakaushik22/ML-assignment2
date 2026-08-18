@@ -53,7 +53,6 @@ with open("feature_names.json", "r") as f:
 
 
 metrics_df = pd.read_csv("model_metrics.csv")
-`
 
 
 model_files = {
