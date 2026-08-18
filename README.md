@@ -15,10 +15,10 @@ The dataset used in this project is the Breast Cancer Wisconsin Diagnostic Datas
 The dataset satisfies the minimum assignment requirement of at least 12 features and 500 instances.
 
 ## c. GitHub Repository Link
-[PASTE_YOUR_GITHUB_REPOSITORY_LINK_HERE](https://github.com/Ritakaushik22/ML-assignment2)
+(https://github.com/Ritakaushik22/ML-assignment2)
 
 ## Live Streamlit App Link
-[PASTE_YOUR_STREAMLIT_APP_LINK_HERE](https://ml-assignment2-jdxgfpwp6c6y4ilu4cuqpb.streamlit.app)
+(https://ml-assignment2-jdxgfpwp6c6y4ilu4cuqpb.streamlit.app)
 
 ## d. Models Used and Comparison Table
 The following classification models were implemented on the same dataset:
