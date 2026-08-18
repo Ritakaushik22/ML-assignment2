@@ -48,20 +48,21 @@ def load_model(model_file):
     return joblib.load(model_file)
 
 
-with open("model/feature_names.json", "r") as f:
+with open("feature_names.json", "r") as f:
     feature_names = json.load(f)
 
 
-metrics_df = pd.read_csv("model/model_metrics.csv")
+metrics_df = pd.read_csv("model_metrics.csv")
+`
 
 
 model_files = {
-    "Logistic Regression": "model/logistic_regression.pkl",
-    "Decision Tree": "model/decision_tree.pkl",
-    "kNN": "model/knn.pkl",
-    "Naive Bayes": "model/naive_bayes.pkl",
-    "Random Forest (Ensemble)": "model/random_forest_ensemble.pkl",
-    "Support Vector Machine": "model/support_vector_machine.pkl"
+    "Logistic Regression": "logistic_regression.pkl",
+    "Decision Tree": "decision_tree.pkl",
+    "kNN": "knn.pkl",
+    "Naive Bayes": "naive_bayes.pkl",
+    "Random Forest (Ensemble)": "random_forest_ensemble.pkl",
+    "Support Vector Machine": "support_vector_machine.pkl"
 }
 
 
